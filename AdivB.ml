@@ -1,0 +1,1 @@
+let () = Scanf.scanf " %f %f" (fun a b -> let result = a /. b in Printf.printf "%.12f\n" result)

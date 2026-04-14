@@ -1,0 +1,1 @@
+let () = Scanf.scanf " %d %d" (fun a b -> let sum = a - b in Printf.printf "%d\n" sum)
