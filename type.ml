@@ -32,3 +32,4 @@ let rec print_int_list (l : int_list) =
 
 let () = print_int_list my_list
 (* 출력: 3 -> 2 -> 1 -> 0 -> Nil *)
+            
