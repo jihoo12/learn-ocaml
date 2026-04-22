@@ -11,4 +11,3 @@ let rec operate expression acc temp =
     match h with
     | Int n -> (operate t (acc+n) ' ')
     | Oper c -> (operate t acc c)
-  ;
